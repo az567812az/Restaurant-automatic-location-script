@@ -24,7 +24,7 @@ time.sleep(0.5)
 
 password = browser.find_element(By.XPATH, "//input[@type='password']").send_keys("*******")
 
-time.sleep(0.5)
+time.sleep(1.0)
 
 Sign_in = browser.find_element(By.NAME, "form-login").click()
 
